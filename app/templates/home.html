@@ -36,7 +36,7 @@
 
       <nav class=
       "navbar navbar-expand-lg navbar-dark fixed-top site-navigation main-nav navbar-togglable">
-        <div class="container">
+        <div class="container" >
           <a class="navbar-brand">
             <img class="navbar-icon hide-on-small-only" alt= "no image" src="{{url_for('static',filename = 'images/Logo.png')}}" width=60 height=60>
           </a> 
@@ -76,8 +76,8 @@
       ================================================== -->
 
       <section class="banner-area py-5" id="banner-4">
-        <div class="overlay feature-overlay" style=
-        "background-image: url(https://www.sleepfoundation.org/wp-content/uploads/2021/02/shutterstock_1275314326.jpg)">
+        <div class="overlay feature-]" style=
+        "background-image: url(https://www.sleepfoundation.org/wp-content/uploads/2021/02/shutterstock_1275314326.jpg);filter: blur(3px);">
 
         </div>
         <!-- Content -->
@@ -94,9 +94,8 @@
                 <!-- Subheading -->
 
                 <p class="lead mb-5 pr-0">
-                  Driver Sleepiness Detector.
+                  <i>Driver Sleepiness Detector</i>
                   <br>
-                  Created in AI Camp.
                 </p>
                 <!-- Button -->
                  <a class="mb-0" id='seefood_button'>
@@ -107,7 +106,8 @@
                 </form>
                 <button class="btn btn-white btn-circled btn-text" href="#"
                 target="_blank"><i aria-hidden="true" class=
-                "fas fa-camera pr-2 left"></i> Click to detect faces</button></a>
+                "fas fa-camera pr-2 left"></i> Upload Image</button></a>
+              
               </div>
             </div>
           </div>
@@ -117,12 +117,9 @@
                   <div class="row justify-content-center">
                     <div class="col-md-8 col-lg-6 text-center">
                       <div class="section-heading">
-                        <!-- Heading -->
-                        <!--
-                        NOTE: All of the below title and paragraph is there. The text is white and therefore hidden on the HTML preview, but visible on the website.
-                        -->
                         <h2 class="section-title section-title-padding mb-2 text-white">About AWAIKE</h2>
-                        <p class="text-white">
+                        <br/>
+                        <p style='font-size:25' class='text-white'  >
                           Driving, the most common form of transportation in the modern world, has become an integral part of our society in the past century. However, as a result, automobile-related accidents and injuries are one of the top leading causes of death, many of which have been caused by sleepy drivers. That's why our team has come together to combat driver drowsiness by detecting it before consequences can arise, therefore creating safer roads for everyone.
                         </p>
                       </div>
@@ -187,7 +184,7 @@
 
               <div class="col-lg-4 col-sm-6 col-md-6 mb-30">
                 <div class="web-service-block">
-                  <img alt="Picture of Chris" class="image-container img-fluid" src="{{url_for('static',filename = 'images/chris.jpg')}}">
+                  <img alt="Picture of Chris" width=240 class="image-container img-fluid" src="{{url_for('static',filename = 'images/chris.jpg')}}">
                   <h3>
                     Chris Dugan
                   </h3>
@@ -195,10 +192,10 @@
                   <p>
                     Student at Spring Valley High School
                   </p>
+                  <p>
                     Chris is happy he was able to learn so much about computer vision 
                     and machine learning at AI Camp. He used his experience with HTML/CSS
                     to help build our frontend and used Flask to integrate it with our model.
-                  <p>
                   </p>
                 </div>
               </div>
@@ -254,8 +251,8 @@
                   </p>
 
                   <p>
-                    Dylan worked as a backend developer to prepare data and train
-                    the model. He also evaluated performance metrics and contributed to the frontend.
+                    Dylan worked primarily as a backend developer to prepare data and train
+                    the model. He also evaluated performance metrics and helped create the frontend.
                   </p>
                 </div>
               </div>
@@ -297,24 +294,9 @@
             </div>
         </section>
       </section>
+    </section>
+    
 
-    <footer id="footer">
-        <div class="overlay footer-overlay"></div>
-        <!--Content -->
-        <div class="container">
-            
-
-
-            <div class="row text-right pt-5">
-                <div class="col-lg-12">
-                    <!-- Copyright -->
-                    <p class="footer-copy ">
-                        &copy; Copyright <span class="current-year">AI Camp</span> All rights reserved.
-                    </p>
-                </div>
-            </div> <!-- / .row -->
-        </div>
-    </footer>
  
 <!--         Essential Scripts
     =====================================--> 

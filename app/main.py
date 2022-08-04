@@ -9,7 +9,7 @@ import cv2
 
 # setup the webserver
 # port may need to be changed if there are multiple flask servers running on same server
-port = 45678
+port = 50000
 base_url = get_base_url(port)
 
 # if the base url is not empty, then the server is running in development, and we need to specify the static folder so that the static files are served

@@ -1925,4 +1925,35 @@ Traceback (most recent call last):
   File "/projects/01daffaa-a27d-48db-9968-b77753dcc306/miniconda3/envs/cv_env/lib/python3.8/site-packages/werkzeug/serving.py", line 991, in run_simple
     s.bind(server_address)
 OSError: [Errno 98] Address already in use
-(cv_env) ]0;~/AWAIKE/app[01;34m~/AWAIKE/app[00m$ (base) ]0;~/AWAIKE/app[01;34m~/AWAIKE/app[00m$ 
+(cv_env) ]0;~/AWAIKE/app[01;34m~/AWAIKE/app[00m$ (base) ]0;~/AWAIKE/app[01;34m~/AWAIKE/app[00m$ m[Kpython3 main.py
+Traceback (most recent call last):
+  File "/projects/01daffaa-a27d-48db-9968-b77753dcc306/AWAIKE/app/main.py", line 1, in <module>
+    from flask import send_from_directory
+ModuleNotFoundError: No module named 'flask'
+(base) ]0;~/AWAIKE/app[01;34m~/AWAIKE/app[00m$ conda activate conv[K[K[Kv_env
+(cv_env) ]0;~/AWAIKE/app[01;34m~/AWAIKE/app[00m$ conda activate cv_env[6Ppython3 main.py
+Downloading: "https://github.com/ultralytics/yolov5/archive/master.zip" to /projects/01daffaa-a27d-48db-9968-b77753dcc306/.cache/torch/hub/master.zip
+YOLOv5 🚀 2022-8-4 Python-3.8.13 torch-1.11.0+cu102 CPU
+
+Fusing layers... 
+Model summary: 213 layers, 7018216 parameters, 0 gradients
+Adding AutoShape... 
+Try to open
+
+    https://https://cocalc18.ai-camp.dev/01daffaa-a27d-48db-9968-b77753dcc306/port/50000/
+
+
+ * Serving Flask app 'main' (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+Traceback (most recent call last):
+  File "main.py", line 165, in <module>
+    app.run(host='0.0.0.0', port=port, debug=True)
+  File "/projects/01daffaa-a27d-48db-9968-b77753dcc306/miniconda3/envs/cv_env/lib/python3.8/site-packages/flask/app.py", line 914, in run
+    run_simple(t.cast(str, host), port, self, **options)
+  File "/projects/01daffaa-a27d-48db-9968-b77753dcc306/miniconda3/envs/cv_env/lib/python3.8/site-packages/werkzeug/serving.py", line 991, in run_simple
+    s.bind(server_address)
+OSError: [Errno 98] Address already in use
+(cv_env) ]0;~/AWAIKE/app[01;34m~/AWAIKE/app[00m$ 

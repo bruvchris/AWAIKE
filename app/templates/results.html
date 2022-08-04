@@ -47,8 +47,8 @@
   
     
     <section id="msg-box4-2" data-rv-view="2" style="background-color: rgb(255, 255, 255); margin-top: 8rem; padding-top: 3rem; padding-bottom: 0rem;">
-            <div class="container">  
-        <div class="row">
+        <div class="container">  
+              <div class="row">
                 <div class="col justify-content-center align-items-center text-center">
                     <h3 class="section-title display-4">Recognition Results</h3>
                     <h3 class="we-found btn-text display-4">We found <strong><span style='text-transform: capitalize;'>{{labels}}!</span></strong></h3>
@@ -59,30 +59,24 @@
                             <input id="seefood_input_field" name="file" type="file" onchange="this.form.submit();" hidden/>
                         </form>
                       <br/>
-                        <button class="btn btn-white btn-circled btn-text" href="#" target="_blank" class="myButton">
+                        <button class="btn btn-white btn-circled btn-text" href="#" target="_blank">
                             <i class="fas fa-camera pr-2 left" aria-hidden="true"></i> <b>NEXT Photo</b>
                         </button>
                     </a>
                 </div>
                 <div class="col">
-                    <img class="mbr-figure" width=100 height=400   src="{{ url_for('static', filename='uploads/' + filename)}}">
+                    <img class="mbr-figure"  height=450  width=200 src="{{ url_for('static', filename='uploads/' + filename)}}">
                 </div>
                 </div>
             </div>
     </section>
   
-  <section>
-  <div>
-    <p align="center">
-      <iframe width="700" height="400" src="https://www.youtube.com/embed/8N1vJZc_SkE" title="AWAIKE - Webcam Integration With Flask, HTML, and OpenCV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-    
-    
-    
-    </div>
-  
-  
-  
-  </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
 
     <footer id="footer">
         <div class="overlay footer-overlay"></div>
@@ -94,9 +88,7 @@
             <div class="row text-right pt-5">
                 <div class="col-lg-12">
                     <!-- Copyright -->
-                    <p class="footer-copy ">
-                        &copy; Copyright <span class="current-year">AI Camp</span> All rights reserved.
-                    </p>
+                  
                 </div>
             </div> <!-- / .row -->
         </div>
