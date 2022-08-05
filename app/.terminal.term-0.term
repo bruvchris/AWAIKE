@@ -2011,3 +2011,459 @@ Saved 1 image to [1m/projects/01daffaa-a27d-48db-9968-b77753dcc306/AWAIKE/app/s
 127.0.0.1 - - [04/Aug/2022 22:05:25] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Dylan.jpg HTTP/1.1[0m" 304 -
 127.0.0.1 - - [04/Aug/2022 22:05:25] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Haziq.jfif HTTP/1.1[0m" 304 -
 127.0.0.1 - - [04/Aug/2022 22:05:25] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images1/bg/6.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 22:12:02] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/journey HTTP/1.1" 200 -
+127.0.0.1 - - [04/Aug/2022 22:12:02] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 22:12:02] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/js/theme.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 22:12:02] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 22:12:02] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v5.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 22:12:02] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 22:12:02] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v4.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 22:12:02] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v6.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 22:12:02] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v2.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 22:12:02] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v1.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 22:12:02] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v3.png HTTP/1.1[0m" 304 -
+(base) ]0;~/AWAIKE/app[01;34m~/AWAIKE/app[00m$ m[Kpython3 main.py
+Traceback (most recent call last):
+  File "/projects/01daffaa-a27d-48db-9968-b77753dcc306/AWAIKE/app/main.py", line 1, in <module>
+    from flask import send_from_directory
+ModuleNotFoundError: No module named 'flask'
+(base) ]0;~/AWAIKE/app[01;34m~/AWAIKE/app[00m$ (base) ]0;~/AWAIKE/app[01;34m~/AWAIKE/app[00m$ reset
+c[?1000l[?25h(base) ]0;~/AWAIKE/app[01;34m~/AWAIKE/app[00m$ conda activate cv_env
+(cv_env) ]0;~/AWAIKE/app[01;34m~/AWAIKE/app[00m$ python3 a[Kmain.py
+Downloading: "https://github.com/ultralytics/yolov5/archive/master.zip" to /projects/01daffaa-a27d-48db-9968-b77753dcc306/.cache/torch/hub/master.zip
+YOLOv5 🚀 2022-8-4 Python-3.8.13 torch-1.11.0+cu102 CPU
+
+Fusing layers... 
+Model summary: 213 layers, 7018216 parameters, 0 gradients
+Adding AutoShape... 
+Try to open
+
+    https://https://cocalc18.ai-camp.dev/01daffaa-a27d-48db-9968-b77753dcc306/port/50000/
+
+
+ * Serving Flask app 'main' (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://172.17.0.2:50000/ (Press CTRL+C to quit)
+ * Restarting with stat
+Downloading: "https://github.com/ultralytics/yolov5/archive/master.zip" to /projects/01daffaa-a27d-48db-9968-b77753dcc306/.cache/torch/hub/master.zip
+YOLOv5 🚀 2022-8-4 Python-3.8.13 torch-1.11.0+cu102 CPU
+
+Fusing layers... 
+Model summary: 213 layers, 7018216 parameters, 0 gradients
+Adding AutoShape... 
+Try to open
+
+    https://https://cocalc18.ai-camp.dev/01daffaa-a27d-48db-9968-b77753dcc306/port/50000/
+
+
+ * Debugger is active!
+ * Debugger PIN: 135-090-498
+127.0.0.1 - - [04/Aug/2022 23:29:18] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/ HTTP/1.1" 200 -
+127.0.0.1 - - [04/Aug/2022 23:29:19] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 23:29:19] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 23:29:19] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images1/surprisedbaby.jpeg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 23:29:19] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/js/theme.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 23:29:19] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 23:29:19] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Adrian.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 23:29:19] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/chris.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 23:29:19] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Samantha.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 23:29:20] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Praneeth.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 23:29:20] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Santosh.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 23:29:20] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Dylan.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 23:29:20] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Haziq.jfif HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 23:29:20] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images1/bg/6.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 23:30:53] "[32mPOST /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/ HTTP/1.1[0m" 302 -
+image 1/1: 182x277 1 asleep
+Speed: 12.8ms pre-process, 186.7ms inference, 1.6ms NMS per image at shape (1, 3, 288, 416)
+Saved 1 image to [1m/projects/01daffaa-a27d-48db-9968-b77753dcc306/AWAIKE/app/static/uploads[0m
+127.0.0.1 - - [04/Aug/2022 23:30:54] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/uploads/sleepyGuy.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [04/Aug/2022 23:30:54] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/fontawesome/css/all.css HTTP/1.1" 200 -
+127.0.0.1 - - [04/Aug/2022 23:30:54] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 23:30:55] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 23:30:55] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/fontawesome/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Aug/2022 23:30:55] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/js/theme.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 23:30:55] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/uploads/sleepyGuy.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [04/Aug/2022 23:30:55] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 23:33:21] "[32mPOST /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/uploads/sleepyGuy.jpg HTTP/1.1[0m" 302 -
+image 1/1: 753x750 1 awake
+Speed: 29.5ms pre-process, 167.4ms inference, 0.7ms NMS per image at shape (1, 3, 416, 416)
+Saved 1 image to [1m/projects/01daffaa-a27d-48db-9968-b77753dcc306/AWAIKE/app/static/uploads[0m
+127.0.0.1 - - [04/Aug/2022 23:33:22] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/uploads/Image_32.png HTTP/1.1" 200 -
+127.0.0.1 - - [04/Aug/2022 23:33:22] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 23:33:22] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/fontawesome/css/all.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 23:33:23] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 23:33:23] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 23:33:23] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/js/theme.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 23:33:23] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/fontawesome/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 23:33:23] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/uploads/Image_32.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [04/Aug/2022 23:33:37] "[32mPOST /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/uploads/Image_32.png HTTP/1.1[0m" 302 -
+image 1/1: 183x275 1 awake
+Speed: 2.3ms pre-process, 90.0ms inference, 1.2ms NMS per image at shape (1, 3, 288, 416)
+Saved 1 image to [1m/projects/01daffaa-a27d-48db-9968-b77753dcc306/AWAIKE/app/static/uploads[0m
+127.0.0.1 - - [04/Aug/2022 23:33:37] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/uploads/face2.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [04/Aug/2022 23:33:38] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/fontawesome/css/all.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 23:33:38] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 23:33:38] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/js/theme.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 23:33:38] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/uploads/face2.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [04/Aug/2022 23:33:38] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 23:33:38] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 23:33:38] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/fontawesome/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 23:34:19] "[32mPOST /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/uploads/face2.jpg HTTP/1.1[0m" 302 -
+image 1/1: 408x612 1 drowsy
+Speed: 15.1ms pre-process, 196.0ms inference, 3.3ms NMS per image at shape (1, 3, 288, 416)
+Saved 1 image to [1m/projects/01daffaa-a27d-48db-9968-b77753dcc306/AWAIKE/app/static/uploads[0m
+127.0.0.1 - - [04/Aug/2022 23:34:20] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/uploads/img738.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [04/Aug/2022 23:34:20] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/fontawesome/css/all.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 23:34:20] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 23:34:20] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 23:34:20] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/uploads/img738.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [04/Aug/2022 23:34:21] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 23:34:21] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/js/theme.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Aug/2022 23:34:21] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/fontawesome/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 00:20:33] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 00:20:33] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 00:20:33] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/js/theme.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 00:20:33] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 00:20:33] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v1.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 00:20:33] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v2.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 00:20:33] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v3.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 00:20:33] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v4.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 00:20:33] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v5.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 00:20:33] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v6.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 00:20:40] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/ HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 00:20:40] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 00:20:41] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 00:20:41] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/js/theme.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 00:20:41] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Samantha.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 00:20:41] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Adrian.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 00:20:41] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images1/surprisedbaby.jpeg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 00:20:41] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 00:20:41] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/chris.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 00:20:41] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images1/bg/6.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 00:20:41] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Praneeth.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 00:20:41] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Santosh.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 00:20:41] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Dylan.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 00:20:41] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Haziq.jfif HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 00:24:00] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/journey HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 00:24:00] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 00:24:00] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 00:24:00] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/js/theme.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 00:24:00] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v5.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 00:24:00] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v4.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 00:24:00] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v6.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 00:24:00] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v1.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 00:24:00] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 00:24:00] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v2.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 00:24:00] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v3.png HTTP/1.1[0m" 304 -
+(base) ]0;~/AWAIKE/app[01;34m~/AWAIKE/app[00m$ [K(base) ]0;~/AWAIKE/app[01;34m~/AWAIKE/app[00m$ codn[K[Knda activate-[K ec[K[Kcv-[K)[K-[K_env
+(cv_env) ]0;~/AWAIKE/app[01;34m~/AWAIKE/app[00m$ python2[K3 p[Kmain.py
+Downloading: "https://github.com/ultralytics/yolov5/archive/master.zip" to /projects/01daffaa-a27d-48db-9968-b77753dcc306/.cache/torch/hub/master.zip
+YOLOv5 🚀 2022-8-5 Python-3.8.13 torch-1.11.0+cu102 CPU
+
+Fusing layers... 
+Model summary: 213 layers, 7018216 parameters, 0 gradients
+Adding AutoShape... 
+Try to open
+
+    https://https://cocalc18.ai-camp.dev/01daffaa-a27d-48db-9968-b77753dcc306/port/50000/
+
+
+ * Serving Flask app 'main' (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://172.17.0.2:50000/ (Press CTRL+C to quit)
+ * Restarting with stat
+Downloading: "https://github.com/ultralytics/yolov5/archive/master.zip" to /projects/01daffaa-a27d-48db-9968-b77753dcc306/.cache/torch/hub/master.zip
+YOLOv5 🚀 2022-8-5 Python-3.8.13 torch-1.11.0+cu102 CPU
+
+Fusing layers... 
+Model summary: 213 layers, 7018216 parameters, 0 gradients
+Adding AutoShape... 
+Try to open
+
+    https://https://cocalc18.ai-camp.dev/01daffaa-a27d-48db-9968-b77753dcc306/port/50000/
+
+
+ * Debugger is active!
+ * Debugger PIN: 625-296-458
+127.0.0.1 - - [05/Aug/2022 04:20:43] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/ HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 04:20:43] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:20:43] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:20:43] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/js/theme.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:20:43] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images1/surprisedbaby.jpeg HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 04:20:43] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Adrian.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 04:20:43] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:20:43] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Samantha.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 04:20:43] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/chris.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 04:20:43] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Praneeth.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 04:20:43] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Santosh.png HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 04:20:43] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Dylan.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 04:20:43] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Haziq.jfif HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:20:43] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images1/bg/6.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:20:59] "[32mPOST /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/ HTTP/1.1[0m" 302 -
+image 1/1: 168x300 1 awake
+Speed: 8.5ms pre-process, 93.4ms inference, 1.0ms NMS per image at shape (1, 3, 256, 416)
+Saved 1 image to [1m/projects/01daffaa-a27d-48db-9968-b77753dcc306/AWAIKE/app/static/uploads[0m
+127.0.0.1 - - [05/Aug/2022 04:20:59] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/uploads/35.jpeg HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 04:20:59] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/fontawesome/css/all.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:20:59] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:20:59] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/uploads/35.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 04:20:59] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/js/theme.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:20:59] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:20:59] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:20:59] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/fontawesome/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:21:07] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/journey HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 04:21:07] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:21:07] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:21:07] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v1.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:21:07] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/js/theme.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:21:07] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:21:07] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v2.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:21:07] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v3.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:21:07] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v4.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:21:07] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v5.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:21:07] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v6.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:21:19] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/ HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 04:22:03] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/journey HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 04:22:03] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:03] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:03] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/js/theme.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:03] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:03] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v1.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:03] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v2.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:03] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v4.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:03] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v3.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:03] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v5.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:03] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v6.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:19] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/journey HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 04:22:19] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:19] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:19] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/js/theme.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:19] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:19] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v1.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:19] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v2.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:19] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v3.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:19] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v4.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:19] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v6.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:19] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v5.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:19] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/awaike.ico HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:40] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/journey HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 04:22:40] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:40] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v1.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:40] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/js/theme.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:40] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:40] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:41] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v2.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:41] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v3.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:41] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v5.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:41] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v4.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:41] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v6.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:41] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/awaike.ico HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:56] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/journey HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 04:22:56] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:56] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:56] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:56] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/js/theme.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:56] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v1.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:56] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v2.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:56] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v3.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:56] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v5.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:56] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v4.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:56] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v6.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:22:56] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/awaike.ico HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:04] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/journey HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 04:23:04] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:04] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/js/theme.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:04] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:04] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:04] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v1.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:04] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v2.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:04] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v3.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:04] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v5.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:04] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v4.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:04] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v6.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:04] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/awaike.ico HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:40] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/journey HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 04:23:40] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:40] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:40] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/js/theme.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:40] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:40] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v1.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:40] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v3.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:40] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v2.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:40] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v4.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:40] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v6.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:40] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v5.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:40] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/awaike.ico HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:46] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/journey HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 04:23:47] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:47] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:47] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:47] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/js/theme.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:47] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v1.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:47] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v4.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:47] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v2.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:47] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v3.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:47] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v5.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:47] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v6.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:47] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/awaike.ico HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:54] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/ HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 04:23:54] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:54] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:54] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:54] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Adrian.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:54] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/js/theme.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:54] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Samantha.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:54] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/chris.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:54] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Praneeth.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:54] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Santosh.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:54] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Dylan.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:54] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images1/surprisedbaby.jpeg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:54] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Haziq.jfif HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:23:54] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images1/bg/6.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:24:48] "[32mPOST /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/ HTTP/1.1[0m" 302 -
+image 1/1: 4000x6000 1 asleep
+Speed: 630.6ms pre-process, 91.7ms inference, 0.7ms NMS per image at shape (1, 3, 288, 416)
+Saved 1 image to [1m/projects/01daffaa-a27d-48db-9968-b77753dcc306/AWAIKE/app/static/uploads[0m
+127.0.0.1 - - [05/Aug/2022 04:24:49] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/uploads/DSC_5933.JPG HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 04:24:50] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/fontawesome/css/all.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:24:50] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:24:50] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/js/theme.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:24:50] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/uploads/DSC_5933.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 04:24:50] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:24:50] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:24:50] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/fontawesome/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:25:03] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/ HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 04:25:03] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:25:03] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:25:03] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/js/theme.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:25:03] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Adrian.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:25:03] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:25:03] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Samantha.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:25:03] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/chris.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:25:03] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Santosh.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:25:03] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Dylan.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:25:03] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Praneeth.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:25:03] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Haziq.jfif HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:25:03] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images1/surprisedbaby.jpeg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 04:25:03] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images1/bg/6.jpg HTTP/1.1[0m" 304 -
+(base) ]0;~/AWAIKE/app[01;34m~/AWAIKE/app[00m$ [K(base) ]0;~/AWAIKE/app[01;34m~/AWAIKE/app[00m$ conda activaat[K[K[Kt[Kate cv_env
+(cv_env) ]0;~/AWAIKE/app[01;34m~/AWAIKE/app[00m$ python2[K3 main.py
+Downloading: "https://github.com/ultralytics/yolov5/archive/master.zip" to /projects/01daffaa-a27d-48db-9968-b77753dcc306/.cache/torch/hub/master.zip
+YOLOv5 🚀 2022-8-5 Python-3.8.13 torch-1.11.0+cu102 CPU
+
+Fusing layers... 
+Model summary: 213 layers, 7018216 parameters, 0 gradients
+Adding AutoShape... 
+Try to open
+
+    https://https://cocalc18.ai-camp.dev/01daffaa-a27d-48db-9968-b77753dcc306/port/50000/
+
+
+ * Serving Flask app 'main' (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://172.17.0.2:50000/ (Press CTRL+C to quit)
+ * Restarting with stat
+Downloading: "https://github.com/ultralytics/yolov5/archive/master.zip" to /projects/01daffaa-a27d-48db-9968-b77753dcc306/.cache/torch/hub/master.zip
+YOLOv5 🚀 2022-8-5 Python-3.8.13 torch-1.11.0+cu102 CPU
+
+Fusing layers... 
+Model summary: 213 layers, 7018216 parameters, 0 gradients
+Adding AutoShape... 
+Try to open
+
+    https://https://cocalc18.ai-camp.dev/01daffaa-a27d-48db-9968-b77753dcc306/port/50000/
+
+
+ * Debugger is active!
+ * Debugger PIN: 329-840-032
+127.0.0.1 - - [05/Aug/2022 17:01:27] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/ HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 17:01:27] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:01:27] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:01:27] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/js/theme.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:01:27] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Adrian.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 17:01:27] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:01:27] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/chris.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 17:01:27] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Samantha.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 17:01:27] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Praneeth.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 17:01:27] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Santosh.png HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 17:01:27] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Dylan.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 17:01:27] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Haziq.jfif HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:01:27] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images1/surprisedbaby.jpeg HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 17:01:27] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images1/bg/6.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 17:01:38] "[32mPOST /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/ HTTP/1.1[0m" 302 -
+image 1/1: 800x800 1 awake
+Speed: 53.6ms pre-process, 240.3ms inference, 20.1ms NMS per image at shape (1, 3, 416, 416)
+Saved 1 image to [1m/projects/01daffaa-a27d-48db-9968-b77753dcc306/AWAIKE/app/static/uploads[0m
+127.0.0.1 - - [05/Aug/2022 17:01:38] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/uploads/1650006160251.jpeg HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 17:01:38] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/fontawesome/css/all.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:01:38] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:01:38] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/uploads/1650006160251.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 17:01:38] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:01:38] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/js/theme.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:01:38] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:01:38] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/fontawesome/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 17:01:50] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/journey HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 17:01:50] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:01:50] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:01:50] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v1.png HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 17:01:50] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:01:50] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/js/theme.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:01:50] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v2.png HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 17:01:50] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v4.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:01:50] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v3.png HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 17:01:50] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v5.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:01:50] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v6.png HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 17:03:48] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/ HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 17:03:48] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:03:48] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:03:48] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/js/theme.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:03:48] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images1/surprisedbaby.jpeg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:03:48] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:03:48] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Adrian.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:03:48] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Samantha.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:03:48] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/chris.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:03:48] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Praneeth.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:03:48] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Santosh.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:03:48] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Dylan.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:03:48] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Haziq.jfif HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:03:48] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images1/bg/6.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:04:41] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/journey HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 17:04:41] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:04:41] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:04:41] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/js/theme.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:04:41] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v5.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:04:41] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v4.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:04:41] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v6.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:04:41] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:04:41] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v1.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:04:41] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v3.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:04:41] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Confusion%20Matrices/Confusion%20Matrix%20v2.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:05:48] "GET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/ HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2022 17:05:48] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:05:48] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/plugins/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:05:48] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/js/theme.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:05:48] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images1/surprisedbaby.jpeg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:05:48] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:05:48] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Adrian.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:05:48] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Samantha.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:05:48] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/chris.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:05:48] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Praneeth.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:05:49] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Santosh.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:05:49] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Dylan.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:05:49] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images/Haziq.jfif HTTP/1.1[0m" 304 -
+127.0.0.1 - - [05/Aug/2022 17:05:49] "[36mGET /01daffaa-a27d-48db-9968-b77753dcc306/port/50000/static/images1/bg/6.jpg HTTP/1.1[0m" 304 -
